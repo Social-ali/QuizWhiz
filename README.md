@@ -1,5 +1,5 @@
 # QuizWhiz
-# QuizWhizz
+
 
 QuizWhizz is a fun and interactive quiz application that allows users to test their knowledge across various categories.
 
