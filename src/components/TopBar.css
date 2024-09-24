@@ -1,0 +1,74 @@
+.social-buttons {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: row; /* Arrange buttons horizontally */
+    justify-content: center; /* Center the buttons horizontally */
+    align-items: center; /* Center the buttons vertically */
+   /* Background color for the bar */
+   /* Shadow effect */
+    padding: 15px 10px; /* Padding around the buttons */
+    border-radius: 5em; /* Rounded corners */
+}
+
+.social-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px; /* Fixed width for the button */
+    height: 50px; /* Fixed height for the button */
+    border-radius: 50%; /* Round button shape */
+    margin: 0 10px; /* Horizontal space between buttons */
+    background-color: #fff; /* Button background color */
+    box-shadow: 0px 0px 4px #00000027; /* Button shadow */
+    transition: 0.3s; /* Smooth transition for hover effects */
+}
+
+/* Hover effects */
+.social-button:hover {
+    background-color: #f2f2f2; /* Change background on hover */
+    box-shadow: 0px 0px 6px 3px #00000027; /* Change shadow on hover */
+}
+
+/* SVG icon styles */
+.social-buttons svg {
+    transition: 0.3s; /* Smooth transition for icons */
+    height: 20px; /* Icon height */
+}
+
+/* Individual button styles */
+.facebook {
+    background-color: #3b5998; /* Facebook button color */
+}
+
+.github {
+    background-color: #333; /* GitHub button color */
+}
+
+.linkedin {
+    background-color: #0077b5; /* LinkedIn button color */
+}
+
+.instagram {
+    background-color: #c13584; /* Instagram button color */
+}
+
+/* Icon color adjustments */
+.facebook svg, .github svg, .linkedin svg, .instagram svg {
+    fill: #f2f2f2; /* Default icon color */
+}
+
+/* Icon hover effects */
+.facebook:hover svg {
+    fill: #3b5998; /* Facebook icon color on hover */
+}
+
+.github:hover svg {
+    fill: #333; /* GitHub icon color on hover */
+}
+
+.linkedin:hover svg {
+    fill: #0077b5; /* LinkedIn icon color on hover */
+}
+
+.instagram:hover svg {
+    fill: #c13584; /* Instagram icon color on hover */
+}
